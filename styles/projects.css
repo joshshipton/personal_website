@@ -1,0 +1,41 @@
+
+  
+  /* Projects Page Styling */
+h1{
+    text-align: center;
+}
+
+  .repo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .repo-card {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 0.5rem whitesmoke;
+    border: 1px solid wheat
+  }
+  
+  .repo-name {
+    font-size: 1.5rem;
+  }
+  
+  .repo-description {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .repo-url {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .repo-language {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  

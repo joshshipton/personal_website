@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "use": "@vercel/python",
+        "entrypoint": "python app/__init__.py"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "app/__init__.py"
+      }
+    ]
+  } 

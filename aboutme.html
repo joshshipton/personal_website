@@ -1,24 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/cd2a26b8c3.js" crossorigin="anonymous"></script>
+    <title>About Me</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-    <title>About me</title>
+        .about-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .about-photo {
+            flex-basis: 40%;
+            max-width: 300px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .about-photo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .about-info {
+            flex-basis: 55%;
+            text-align: justify;
+        }
+
+        .about-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .about-description {
+            color: #666;
+            line-height: 1.5;
+        }
+    </style>
 </head>
 <body>
-
-    <p>My technical skills are ever growing and im always learning new technologies. Some of my favourites to work with are</p>
-    <ul>
-        <li>Python</li>
-        <li>javascript and/or typescript</li>
-        <li>Java</li>
-        <li>comftarble with both Linux and windows operating systems</li>
-    </ul>
-
-    
-    
+    <div class="about-container">
+        <div class="about-photo">
+            <img src="imgs/pfp.jpg" alt="Photo of me">
+        </div>
+        <div class="about-info">
+            <h2 class="about-title">More About Me</h2>
+            <p class="about-description">I don't really know what to put here yet but here are some random things. In my spare time I enjoy training grappling this has lead me to win multiple titles in submission grappling and Judo and I have represented Australia in Judo. I also compete in competitive programming and hope to make the ICPC regional finals this year</p>
+            <p>I also write about Judo and grappling sometimes over on medium check me out <a href="https://medium.com/@gayforgrappling">here</a></p>
+        </div>
+    </div>
 </body>
 </html>

@@ -123,3 +123,9 @@ a{
 color: black;
 text-decoration: none;
 }
+
+.subheader{
+  margin-left: 20px;
+  font-weight: 400;
+}
+
